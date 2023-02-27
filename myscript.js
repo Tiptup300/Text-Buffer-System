@@ -1,8 +1,8 @@
 let canvasContext;
 
 function InitCanvasContext() {
-  const CHARACTER_FONT_SIZE = 19;
-  const CHARACTER_HEIGHT_PIXELS = 17;
+  const CHARACTER_FONT_SIZE = 15;
+  const CHARACTER_HEIGHT_PIXELS = 15;
   const CHARACTER_WIDTH_PIXELS = 12;
   const CANVAS_WIDTH = 480;
   const CANVAS_HEIGHT = 360;
@@ -46,14 +46,16 @@ X                                      X
 X                                      X
 X                                      X
 X                                      X
+X          ##########################  X
+X          #                        #  X
+X          #  1. Selection One      #  X
+X          #  2. Another Choice     #  X
+X          #  3. The Very Best One  #  X
+X          #                        #  X
+X          #  9. Exit               #  X
+X          #                        #  X
+X          ##########################  X
 X                                      X
-X                                      X
-X                                      X
-X                                      X
-X                                      X
-X                                      X
-X                                      X
-X                                      X                                                    X
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 `
       .split("\n")
